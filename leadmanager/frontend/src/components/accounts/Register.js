@@ -22,7 +22,7 @@ export class Register extends Component {
       <div className="col-md-6 m-auto">
         <div className="card card-body mt-5">
           <h2 className="text-center">Register</h2>
-          <form onSubmit="{this.onSubmit}">
+          <form onSubmit={this.onSubmit}>
             <div className="form-group">
               <label>Username</label>
               <input
